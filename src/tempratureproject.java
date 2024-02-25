@@ -1,4 +1,5 @@
 
+import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class tempratureproject{
@@ -13,6 +14,7 @@ public class tempratureproject{
         today=inputNumber.nextInt();
         meetingDay=(today + 10)%DOW;
         System.out.println("Meeting day="+meetingDay);
+
 
     }
 }
